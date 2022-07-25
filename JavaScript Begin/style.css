@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    height: 100vh;
+}
+
+.title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input {
+    padding: 4px;
+}
+
+.button {
+    padding: 4px 10px;
+}
+
+.p-wrapper {
+    margin-top: 20px;
+}
+
+.p-wrapper>p:not(:first-child) {
+    margin-top: 10px;
+}
